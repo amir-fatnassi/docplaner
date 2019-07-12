@@ -1,33 +1,239 @@
-.App {
-  text-align: center;
+.navbar{
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  background: hsla(0,0%,100%,.98);
+  
+}
+.navbar-background{
+  padding:5px 20px;
+}
+.navbar-brand{
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  margin-left:50px
+}
+.navbar-brand:hover{
+color:#00ccb1;
+
+}
+.nav-link:hover{
+  color:#00ccb1;
+  text-decoration: none;
+ 
+  font-size: 25px;
+
+}
+.nav-link{
+  color:#ababab;
+  font-size:18px;
+  margin: 0 10px;
+  text-decoration: none;
+}
+li
+{
+  list-style: none;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+
+.toggler-btn{
+  border:2px solid #00ccb1;
+  padding:5px;
+}
+  .bar{
+    width: 30px;
+    height: 3px;
+    margin:5px;
+    background: #00ccb1;
+   
+
+
+}
+.change .bar1{
+  transform: rotate(-45deg) translate(-5px,5px);
+}
+.change .bar2{
+  transform: rotate(-45deg) translate(-5px,5px);
+  opacity: 0;
+}
+.change .bar3{
+  transform: rotate(45deg) translate(-5px,-8px);
+}
+    
+
+
+.col
+{
+  margin-top: 90px;
+}
+.img{
+  width: 3rem;
+  height: 3rem;
+  border: none;
+}
+.active{
+  color:#00ccb1;
+}
+.font-weight-bold{
+  color:#00ccb1;
+  font-size: 1.7rem
+}
+.font-weight-bolder{
+  color:#ababab;
+  font-size: 1.7rem
+}
+.navbar-collapse{
+  position: relative;
+  margin-left:600px
+}
+.display-6{
+  font-size: 2.125rem;
+  color: #00b39b;
+  text-align: center; 
+}
+.const
+{
+  margin: 20px auto;
+}
+/***********************services***********************************/
+.service-card-patients{
+  overflow: hidden;
+  background-color: #00ccb1;
+  height: 300px;
+  border-radius: 15px;
+}
+.service-card-doctors{
+ 
+  overflow: hidden;
+  background-color:#3d83df;
+  height: 300px;
+  border-radius: 15px;
+}
+.cccc
+{
+  left: 190%;
+}
+.service-card-img{
+  left:13rem;
+  width: 29rem;
+}
+.service-card-imgg{
+  left:13rem;
+width: 29rem;
+margin-top: 1em;
+padding: 1.375em 3.5em 0;
+
+
+}
+/***********************************company*********************************/
+.colr{
+  color:#ababab;
+}
+.azer
+{
+  margin: 40px auto;
+}
+/************************************Card******************************/
+#card{
+  background-image: url('./bg.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.small-card{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  
+  
+}
+.smalll-card{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  /*left:670px*/
+}
+.text{
+  color: #00b39b;
+ text-align: center
+
+}
+.smallll-card{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  
+  
+  
+}
+.feature-card {
+  color: #00b39b;
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  text-align: center;
+  width: 200px;
+  min-height: 250px;
+  border-radius: 4px;
+}
+.feature-card-description {
+  color: grey;
+}
+
+.title {
   color: white;
+  padding-left: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.organisationn {
+  display:flex;
+  flex-wrap: wrap;
+
+ }
+
+ 
+/***************************item********************************/
+.organisation {
+display:flex;
+flex-wrap: wrap;
+justify-content:center;}
+.horizentale{
+  display:flex;
+  justify-content: space-between;
+  padding:2px;
+  font-size: 1.5rem;
+  color: #747474;
+}
+.card{
+  display:flex;
+flex-wrap: wrap;
+justify-content:center;
+margin-left:15px;
+}
+.org{
+  flex-wrap:wrap;
+justify-content: space-between
+}
+.text-footer{
+  
+  
+  color: #747474;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
